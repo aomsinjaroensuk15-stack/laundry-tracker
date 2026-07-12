@@ -103,6 +103,9 @@ void loop() {
     bool running = currentA >= CURRENT_THRESHOLD_A;
     sendTelemetry(currentA, running);
   }
+}    bool running = currentA >= CURRENT_THRESHOLD_A;
+    sendTelemetry(currentA, running);
+  }
 }
 
 
